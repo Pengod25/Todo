@@ -93,7 +93,7 @@ input[type="checkbox"]:checked ~ .paddo{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    width: 20px;
+    width: 8px;
 }
    .display{
     display: grid;
