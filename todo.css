@@ -1,0 +1,100 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(24, 24, 24);
+}
+.wrapper{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+}
+.header{ 
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800px;
+    margin-bottom: 15px;
+    color: #00FFC4;
+}
+.input{
+    width: 370px;
+    height: 28px;
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    padding-left: 10px;
+    background-color: transparent;
+    color: gray;
+    
+}
+.input:focus{
+    outline: none;
+}
+.absolute{
+    position: relative;
+}
+.add{
+    height: 32px;
+    width: 55px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: #00FFC4;
+    cursor: pointer;
+}
+.display{
+    display: grid;
+    grid-template-columns: 340px 40px;
+    align-items: center;
+}
+img{
+    color: #00FFC4;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 15px;
+}
+p{
+    color: rgb(197, 197, 197);
+    font-size: 14px;
+    font-weight: lighter;
+    flex-grow: 1;
+   
+}
+.paddo{
+    padding-left: 8px;
+    margin-top: 0px;
+}
+.check{
+    width: 15px;
+    
+}
+.pad{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]:checked ~ .paddo{
+    text-decoration: line-through;
+    color: grey;
+}
+
+@media all and (max-width: 500px){
+   .input{
+    width: 300px;
+   }
+   .add{
+    width: 55px;
+   }
+   .display{
+    display: grid;
+    grid-template-columns: 280px 40px;
+    align-items: center;
+}
+}
