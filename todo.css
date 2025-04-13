@@ -89,13 +89,6 @@ input[type="checkbox"]:checked ~ .paddo{
    .input{
     width: 300px;
    }
-   .add{
-    width: 55px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-   }
    .display{
     display: grid;
     grid-template-columns: 260px 60px;
