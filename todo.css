@@ -91,10 +91,14 @@ input[type="checkbox"]:checked ~ .paddo{
    }
    .add{
     width: 55px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
    }
    .display{
     display: grid;
-    grid-template-columns: 260px 40px;
+    grid-template-columns: 260px 60px;
     align-items: center;
 }
 }
